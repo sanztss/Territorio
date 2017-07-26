@@ -11,7 +11,6 @@ Visto que o tempo da consideração deve ser respeitado e que dependendo da quan
 
 ### Requisitos
 
-Saber quais quadras compõe o território total da congregação.
-Saber quais quadras compõe cada território individual.
-Saber qual a melhor maneira de compartilhar a quadra designada.
-
+1. Saber quais quadras compõe o território total da congregação.
+2. Saber quais quadras compõe cada território individual.
+3. Saber qual a melhor maneira de compartilhar a quadra designada.
