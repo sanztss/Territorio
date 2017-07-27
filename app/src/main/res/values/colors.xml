@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="colorAccent">#90a4ae</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcon">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTouchEffect">#9ccc</color>
+
+    <!-- theme colors -->
+    <color name="blueBackground">#84ffff</color>
+    <color name="bluePrimary">#03a9f4</color>
+    <color name="blueAccent">#ff193a</color>
+    <color name="blueText">@android:color/white</color>
+    <color name="bluePrimaryDark">#038dcc</color>
+
+    <color name="pinkBackground">#ff88d3</color>
+    <color name="pinkPrimary">#c25799</color>
+    <color name="pinkAccent">#ff9419</color>
+    <color name="pinkText">@android:color/white</color>
+    <color name="pinkPrimaryDark">#a64a7d</color>
+
+    <color name="greenBackground">#b9f6ca</color>
+    <color name="greenPrimary">#2d8d47</color>
+    <color name="greenAccent">#e919ff</color>
+    <color name="greenText">@android:color/white</color>
+    <color name="greenPrimaryDark">#37663d</color>
+
+    <color name="orangeBackground">#e28946</color>
+    <color name="orangePrimary">#bf682d</color>
+    <color name="orangeAccent">#fffc19</color>
+    <color name="orangeText">@android:color/white</color>
+    <color name="orangePrimaryDark">#ae5415</color>
+
+    <color name="yellowBackground">#ffff8d</color>
+    <color name="yellowPrimary">#ffeb3b</color>
+    <color name="yellowAccent">#19dcff</color>
+    <color name="yellowText">@color/colorSecondaryText</color>
+    <color name="yellowPrimaryDark">#e6d335</color>
+
+</resources>
