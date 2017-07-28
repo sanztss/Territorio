@@ -19,16 +19,16 @@
     <color name="bluePrimaryDark">#038dcc</color>
 
     <color name="pinkBackground">#ff88d3</color>
-    <color name="pinkPrimary">#c25799</color>
+    <color name="pinkPrimary">#d15e90</color>
     <color name="pinkAccent">#ff9419</color>
     <color name="pinkText">@android:color/white</color>
-    <color name="pinkPrimaryDark">#a64a7d</color>
+    <color name="pinkPrimaryDark">#bf3e6b</color>
 
     <color name="greenBackground">#b9f6ca</color>
-    <color name="greenPrimary">#2d8d47</color>
+    <color name="greenPrimary">#42995a</color>
     <color name="greenAccent">#e919ff</color>
     <color name="greenText">@android:color/white</color>
-    <color name="greenPrimaryDark">#37663d</color>
+    <color name="greenPrimaryDark">#297632</color>
 
     <color name="orangeBackground">#e28946</color>
     <color name="orangePrimary">#bf682d</color>

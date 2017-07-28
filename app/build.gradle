@@ -35,7 +35,8 @@ dependencies {
     compile "com.android.support:design:${supportLibVersion}"
     compile "com.android.support:recyclerview-v7:${supportLibVersion}"
     compile "com.android.support.test.espresso:espresso-idling-resource:${espressoVersion}"
-    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'
     testCompile "junit:junit:${junitVersion}"
 
     androidTestCompile("com.android.support.test.espresso:espresso-core:${espressoVersion}") {

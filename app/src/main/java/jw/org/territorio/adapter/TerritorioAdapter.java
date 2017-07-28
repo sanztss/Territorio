@@ -3,7 +3,6 @@ package jw.org.territorio.adapter;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorRes;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -13,14 +12,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
 import jw.org.territorio.R;
 import jw.org.territorio.model.Territorio;
-
-import static android.R.attr.category;
 
 /**
  * Created by Des. Android on 26/07/2017.
@@ -62,7 +59,7 @@ public class TerritorioAdapter extends RecyclerView.Adapter<TerritorioAdapter.Vi
     @Override
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         Territorio territorio = territorios.get(position);
-        setCategoryIcon(territorio, holder.category_icon);
+        Glide.with(mContext).load(mResources.getIdentifier("territorio_" + territorio.getNumeroTerritorio(), DRAWABLE, mPackageName)).into(holder.category_icon);
         holder.itemView.setBackgroundColor(getColor(territorio.getTematerritorio().getWindowBackgroundColor()));
         holder.category_title.setText(territorio.getNumeroTerritorio());
         holder.category_title.setTextColor(getColor(territorio.getTematerritorio().getTextPrimaryColor()));
@@ -73,13 +70,6 @@ public class TerritorioAdapter extends RecyclerView.Adapter<TerritorioAdapter.Vi
                 mOnItemClickListener.onClick(v, holder.getAdapterPosition());
             }
         });
-    }
-
-    private void setCategoryIcon(Territorio territorio, ImageView icon) {
-        final int territorioImageResource = mResources.getIdentifier("territorio_" + territorio.getNumeroTerritorio(), DRAWABLE, mPackageName);
-        Picasso.with(mContext)
-                .load(territorioImageResource)
-                .into(icon);
     }
 
     @Override
